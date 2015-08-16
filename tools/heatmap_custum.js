@@ -1,4 +1,4 @@
-'user strict';
+'use strict';
 
 
 require.config(configure.get('requirejsSettings'));
