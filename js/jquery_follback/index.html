@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>jquery_follback_test</title>
+</head>
+<body>
+  <div id="content">
+    <ul id="hoge">
+      <li>fuga</li>
+    </ul>
+  </div>
+
+  <script type="text/javascript" charset="utf-8" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    src_str = "<script src=\"./jquery-2.0.2.min.js\"><\/script>";
+    window.$ || document.write(src_str);
+  </script>
+  <script type="text/javascript" charset="utf-8">
+    $(function() {
+      $hoge = $("#hoge");
+      $hoge.append("<li>hoge</li>");
+    });
+  </script>
+</body>
+</html>
