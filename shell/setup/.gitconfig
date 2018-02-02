@@ -1,0 +1,20 @@
+[core]
+	excludesfile = /Users/apple/.gitignore
+
+[user]
+	name = TakashiSato
+	email = takashisato.235711@gmail.com
+[alias]
+	st = status
+	ft = fetch
+	ch = checkout
+	br = branch
+	pl = pull origin
+	ps = push origin
+	cm = commit
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+
