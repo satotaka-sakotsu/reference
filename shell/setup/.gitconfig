@@ -7,7 +7,7 @@
 [alias]
 	st = status
 	ft = fetch
-	ch = checkout
+	co = checkout
 	br = branch
 	pl = pull origin
 	ps = push origin
